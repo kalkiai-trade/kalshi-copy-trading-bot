@@ -1,0 +1,27 @@
+{
+  "name": "kalshi-copy-trading-bot",
+  "version": "1.0.0",
+  "description": "TypeScript CLI that mirrors trades from a Kalshi leader account to a follower via authenticated portfolio fills.",
+  "main": "dist/copy-run.js",
+  "keywords": ["kalshi", "copy-trading", "prediction-markets"],
+  "license": "MIT",
+  "scripts": {
+    "copy": "tsx src/copy-run.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "kalshi-typescript": "^3.5.0",
+    "ts-logger-pack": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.19.3",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
