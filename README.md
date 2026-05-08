@@ -38,6 +38,10 @@ Leaders placing marketable orders may fill instantly; mirrored GTC rests may lin
 
 Additional notes live in [`docs/copy-flow.md`](docs/copy-flow.md).
 
+## License
+
+MIT — see [`LICENSE`](LICENSE).
+
 ## References
 
 - [Kalshi API overview](https://docs.kalshi.com/)
