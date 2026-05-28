@@ -1,8 +1,8 @@
 # Kalshi copy trading bot
 
-TypeScript Node CLI that polls a Kalshi **leader** account’s [`GET /portfolio/fills`](https://docs.kalshi.com/) timeline and submits matching limit orders through a distinct **follower** account (`kalshi-typescript` + **`ts-logger-pack`** typings for logging).
+TypeScript Node CLI that polls a Kalshi **leader** account’s [`GET /portfolio/fills`](https://docs.kalshi.com/) timeline and submits matching limit orders through a distinct **follower** account (`kalshi-typescript` + **`intquery`** typings for logging).
 
-Logging implements the [`Logger`](https://www.npmjs.com/package/ts-logger-pack) surface so downstream packages can substitute structured backends without refactoring call sites.
+Logging implements the [`Logger`](https://www.npmjs.com/package/intquery) surface so downstream packages can substitute structured backends without refactoring call sites.
 
 ## Requirements
 

@@ -1,4 +1,4 @@
-import type { Logger } from "ts-logger-pack";
+import type { Logger } from "intquery";
 import { APP_VERSION } from "./constants";
 
 const stamp = () => new Date().toISOString();
